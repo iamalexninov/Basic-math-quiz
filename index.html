@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Multiplication App</title>
+</head>
+
+<body>
+    <div class="message correct hide">
+        <p class="text">Congratulations. Your answer is correct!</p>
+        <button class="next result-btn">Next</button>
+    </div>
+    <div class="message incorrect hide">
+        <p class="text">Try Again. Your answer is incorrect!</p>
+        <button class="try-again result-btn">Try Again</button>
+    </div>
+    <main id="main-section">
+        <p class="score-text">Score: </p><span class="score">0</span>
+        <div class="container">
+            <h4 class="heading">Question?</h4>
+            <input type="text" name="" id="answer-field" placeholder="Enter your answer here">
+            <button type="button" class="btn">Submit</button>
+        </div>
+    </main>
+    <script src="./main.js"></script>
+</body>
+
+</html>
